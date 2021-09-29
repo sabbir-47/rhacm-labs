@@ -67,3 +67,6 @@ spec:
       - name: postgresql-data
         emptyDir:
           medium: ""
+        persistentVolumeClaim:
+          claimName: postgresql
+                  
